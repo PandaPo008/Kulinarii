@@ -1,0 +1,41 @@
+.card { background: #fff; border: 1px solid #ddd; padding: 15px; border-radius: 8px; }
+.card h3 { margin: 10px 0; }
+.btn { 
+    display: inline-block; 
+    background: #d35400; 
+    color: #fff; 
+    padding: 8px 15px; 
+    border-radius: 4px; 
+    margin-top: 10px; 
+}
+.active { color: #d35400; font-weight: bold; }
+
+.meme-image img {
+    border-radius: 10px;
+    max-width: 350px;
+    border: 5px solid #d35400;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #555;
+    border-left: 4px solid #d35400;
+    padding-left: 15px;
+    margin: 20px 0;
+}
+
+.category-item {
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.category-item img {
+    border-radius: 50%; /* Круглые картинки категорий */
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 auto 15px;
+}
+
+.category-item:hover { transform: translateY(-10px); }
